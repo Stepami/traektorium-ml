@@ -105,7 +105,7 @@ class Clusters(Resource):
             res.append({
                 'x': location[0],
                 'y': location[1],
-                'label': int(label),
+                'cluster': int(label),
                 'data': course
             })
 
